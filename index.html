@@ -10,19 +10,24 @@
 <body>
     <header>
         <h1>Matthew Wong</h1><!--Block Display-->
-        <ul><!--Block Displey-->
+        <ul class="nav-list"><!--Block Displey-->
             <li><a href="#my-start">My Start</a></li><!--Block Display, Link Inline Display-->
             <li><a href="#details">Details</a></li><!--Block Display, Link Inline Display-->
             <li><a href="#social-media">Social Media</a></li><!--Block Display, Link Inline Display-->
+            <li><a href="some-words.html">Some Words</a></li>
         </ul>
     </header>
     <main>
-        <img src="Utah.jpeg" height="200px" alt="Driving Through Utah" /><!--Inline-Block Display-->
-        <p>I am a former finance professional and a new technology hopeful.</p><!--Block Display-->
+        <img id="profile-pic" src="Utah.jpeg" height="200px" alt="Driving Through Utah" /><!--Inline-Block Display-->
+        <p class="overview">I am a former finance professional and a new technology hopeful.</p><!--Block Display-->
         <h2 id="my-start">How I got my start</h2><!--Block Display-->
         <p>I had some interest in coding back in college when I helped out with my church's web development team. I had some experience managing the church website but ended up choosing a different career path</p><!--Block Display-->
         <p>I chose Grand Circus because I live in the area and have heard many good things about it. I had previously worked at Rocket Mortgage and they would promote Grand Circus pretty regularly.</p><!--Block Display-->
         <h2 id="details">Details</h2><!--Block Display-->
+        <blockquote id="joke">
+            <p>Why did the Norwegian Navy put barcodes on their ships?</p>
+            <p>So when they docked, they could <i>Scandinavian.</i></p>
+        </blockquote>
         <h3>Favorites</h3><!--Block Display-->
         <ol>
             <li>My favorite <strong>book</strong> is <cite>Harry Potter</cite>.</li><!--Block Display List, Inline Display Strong and Cite-->
@@ -49,10 +54,20 @@
     </main>
     <footer>
         <h3 id="social-media">Social Media</h3><!--Block Display-->
-        <ul>
+        <ul class="nav-list">
             <li><img src="GitHub-Mark-64px.png" alt="Github" width="64px" /><a href="https://www.github.com/wongmatt93">Github</a></li><!--Inline-Block Display, Link Inline Display-->
             <li><img src="LI-In-Bug.png" alt="LinkedIn" width="64px" /><a href="https://www.linkedin.com/in/wongmatt93">LinkedIn</a></li><!--Inline-Block Display, Link Inline Display-->
         </ul>
     </footer>
+    <div class="numbers-box">
+        <div class="color-box color-box-1">1</div>
+        <div class="color-box color-box-2">2</div>
+        <div class="color-box color-box-3">3</div>
+        <div class="color-box color-box-4">4</div>
+    </div>
+    <!--<div id="horse">
+        <img class="horse" src="Bojack.jpg"/>
+        <img class="horse" src="Bojack2.jpg"/>
+    </div>-->
 </body>
 </html>
